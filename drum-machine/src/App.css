@@ -1,0 +1,28 @@
+.DrumMachine {
+  max-width: 600px;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Display {
+  height: 150px;
+  padding: 16px;
+  box-sizing: border-box;
+  font-size: 3rem;
+}
+
+.DrumPad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 600px;
+}
+
+.Drumpad_Button {
+  flex-basis: 32%;
+  margin-bottom: 15px;
+  font-size: 3rem;
+}
